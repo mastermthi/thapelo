@@ -2,6 +2,7 @@
 body{
     font-family: 'Nunito',sans-serif;
       background: url(images/backie.jpg);
+    
 }
 .content{
     grid-area: content;
@@ -110,6 +111,11 @@ li{
     font-size: 60%;
     font-family: sans-serif;
 }
+.boldtext{
+    font-weight: bold;
+    font-size: 60%;
+    font-family: sans-serif;
+}
 footer ul li a{
     text-decoration: none;
     
@@ -123,6 +129,9 @@ svg{width: 40%}
             "sidebar footer";
             grid-template-columns: 300px 1fr;
             grid-template-rows: 1fr auto;
+    }
+    body{
+        overflow: hidden;
     }
     nav ul{
         display: flex;
