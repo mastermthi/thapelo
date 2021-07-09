@@ -61,6 +61,7 @@ nav li a{
 nav li a:hover{
     opacity: 1;
 }
+
 .hero{
     max-width: 960;
     margin: 0 auto;
@@ -94,6 +95,14 @@ footer ul{
 
 table {
   border-spacing: 40px;
+    
+}
+table img{
+  max-width: 100%;
+    max-height: 100vh;
+    width: auto;
+    margin: auto;
+    
 }
 
 footer ul li{
@@ -160,6 +169,10 @@ svg{width: 40%}
     
     }
     .content img{
+        width: 100px;
+        
+    }
+    .table img{
         width: 100px;
         
     }
