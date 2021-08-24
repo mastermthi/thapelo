@@ -1,7 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
 body{
     font-family: 'Nunito',sans-serif;
-      background: url(../images/backie.jpg);  
+      background: url(../images/backie.jpg);
+   
+    
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 .content{
     grid-area: content;
@@ -10,12 +23,16 @@ body{
 }
 .logos{
   margin-top: 80px;
-/*  display: inline-block;*/
+    display: inline-block;
 }
+
+
+
 .content img{
         width: 100px;
         padding-right: 25px;     
     }
+
 .sidebar{
     grid-area: sidebar;
     background: linear-gradient(to right,
@@ -38,7 +55,8 @@ body{
     padding: 1em;
 }
 nav ul{
-    
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     text-align: center;
@@ -84,6 +102,8 @@ nav li a:hover{
 }
 .hero h3{
     font-size: 1.5em;
+    color: #373d46;
+/*    font-weight: 150;*/
 }
 
 .hero p{
@@ -125,6 +145,10 @@ li{
     font-weight: bold;
     font-size: 85%;
     font-family: sans-serif;
+}
+footer ul li a{
+    text-decoration: none;
+    
 }
 svg{width: 40%}
 
