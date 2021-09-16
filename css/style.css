@@ -1,225 +1,225 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
 body{
-    font-family: 'Nunito',sans-serif;
-      background: url(../images/backie.jpg);
-   
-    
+ font-family: 'Nunito',sans-serif;
+ background: url(../images/backie.jpg);
+
+
 }
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+ float: left;
+ width: 33.33%;
+ padding: 5px;
 }
 
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+ content: "";
+ clear: both;
+ display: table;
 }
 .content{
-    grid-area: content;
-    background: url(../images/backie.jpg);
-    
+ grid-area: content;
+ background: url(../images/backie.jpg);
+
 }
 .logos{
-  margin-top: 80px;
-    display: inline-block;
+ margin-top: 80px;
+ display: inline-block;
 }
 
 
 
 .content img{
-        width: 100px;
-        padding-right: 25px;     
-    }
+ width: 100px;
+ padding-right: 25px;     
+}
 
 .sidebar{
-    grid-area: sidebar;
-    background: linear-gradient(to right,
-    rgba(56,58,98,1),
-    rgba(165,103,168,1),
-    rgba(130,125,200,1)
-    );
-    justify-content: center;
+ grid-area: sidebar;
+ background: linear-gradient(to right,
+  rgba(56,58,98,1),
+  rgba(165,103,168,1),
+  rgba(130,125,200,1)
+ );
+ justify-content: center;
 }
 
 .container{
-    font-size: 1.5em;
-    display: grid;
-    grid-template-areas: 
-        "sidebar" "content";
-    grid-template-columns: 1fr;
-    grid-template-rows: 130px 800px;
+ font-size: 1.5em;
+ display: grid;
+ grid-template-areas: 
+  "sidebar" "content";
+ grid-template-columns: 1fr;
+ grid-template-rows: 130px 800px;
 }
 .content,.sidebar{
-    padding: 1em;
+ padding: 1em;
 }
 nav ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ justify-content: space-between;
+ text-align: center;
 }
 nav li{
-    list-style: none;
-    padding: 1em 0;
+ list-style: none;
+ padding: 1em 0;
 }
 nav li a{
-    color: white;
-    font-weight: 700;
-    opacity: 0.6;
-    transition: 0.3s;
+ color: white;
+ font-weight: 700;
+ opacity: 0.6;
+ transition: 0.3s;
 }
 nav li a:hover{
-    opacity: 1;
+ opacity: 1;
 }
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
+ float: left;
+ width: 33.33%;
+ padding: 5px;
 }
 
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+ content: "";
+ clear: both;
+ display: table;
 }
 .kilo{
-  max-width: 960;
-    margin: 0 auto;
-    text-align: center;
+ max-width: 960;
+ margin: 0 auto;
+ text-align: center;
 }
 .kilo img{
  width: 150px;
 }
 .hero{
-    max-width: 960;
-    margin: 0 auto;
-    text-align: center;
+ max-width: 960;
+ margin: 0 auto;
+ text-align: center;
 }
 .hero img{
-    width: 200px;
+ width: 200px;
 }
 
 .hero h1,h2{
-    font-size: 3.5em;
-    font-weight: 300;
-    color: #373d46;
+ font-size: 3.5em;
+ font-weight: 300;
+ color: #373d46;
 }
 .hero h3{
-    font-size: 1.2em;
-    color: #373d46;
-/*    font-weight: 150;*/
+ font-size: 1.2em;
+ color: #373d46;
+ /*    font-weight: 150;*/
 }
 
 .hero p{
-    font-weight: 250;
-    font-size: 20px;
-    line-height: 1.6;
-    color: darkslategray;
-    
+ font-weight: 250;
+ font-size: 20px;
+ line-height: 1.6;
+ color: darkslategray;
+
 }
 
 
 table {
-  border-spacing: 40px;
-    width: auto;
-    
+ border-spacing: 40px;
+ width: auto;
+
 }
 table img{
-  max-width: 100%;
-    max-height: 100vh;
-    width: auto;
-    margin: auto;    
+ max-width: 100%;
+ max-height: 100vh;
+ width: auto;
+ margin: auto;    
 }
 
 
 .icons ul img{
-    width: 40px;
+ width: 40px;
 }
 li{
-    list-style: none;
-    text-decoration: none;
-    font-size: 100%;
+ list-style: none;
+ text-decoration: none;
+ font-size: 100%;
 }
 .normaltext{
-    font-weight: normal;
-    font-size: 60%;
-    font-family: sans-serif;
+ font-weight: normal;
+ font-size: 60%;
+ font-family: sans-serif;
 }
 .boldtext{
-    font-weight: 300;
-    font-size: 85%;
-    font-family: sans-serif;
+ font-weight: 300;
+ font-size: 85%;
+ font-family: sans-serif;
 }
 footer ul li a{
-    text-decoration: none;
-    
+ text-decoration: none;
+
 }
 svg{width: 40%}
 
 @media(min-width: 1040px){
-    .container{
-        grid-template-areas: 
-            "sidebar content";
-            grid-template-rows: 1fr auto;
-    }
-    body{
-        overflow: auto;
-    }
-    nav ul{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-    }
-    .content ul{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-    }
-    .sidebar{
-    grid-area: sidebar;
-    background: linear-gradient(
+ .container{
+  grid-template-areas: 
+   "sidebar content";
+  grid-template-rows: 1fr auto;
+ }
+ body{
+  overflow: auto;
+ }
+ nav ul{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+ }
+ .content ul{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+ }
+ .sidebar{
+  grid-area: sidebar;
+  background: linear-gradient(
    rgba(56,58,98,1),
-    rgba(165,103,168,1),
-    rgba(130,125,200,1)
-    );
-    justify-content: center;
-    } 
-    .hero{
-        text-align: left;
-        margin: 2em auto;
-    
-    }
+   rgba(165,103,168,1),
+   rgba(130,125,200,1)
+  );
+  justify-content: center;
+ } 
+ .hero{
+  text-align: left;
+  margin: 2em auto;
+
+ }
  .kilo{
-        text-align: left;
-        margin: 2em auto;
-    
-    }
-    .content img{
-        width: 100px;
-        
-    }
+  text-align: left;
+  margin: 2em auto;
 
-    .table img{
-        width: 100px;
-        
-    }
+ }
+ .content img{
+  width: 100px;
 
-    .hero img{
-        width: 250px;
-        float: right;
-    }
-    .kilo img{
-        width: 125px;
-        float: right;
-    }
-    .hero p {
-        width: 60%;
-    }
+ }
 
-    svg {
-        width: 20%;
-    }
+ .table img{
+  width: 100px;
+
+ }
+
+ .hero img{
+  width: 250px;
+  float: right;
+ }
+ .kilo img{
+  width: 125px;
+  float: right;
+ }
+ .hero p {
+  width: 60%;
+ }
+
+ svg {
+  width: 20%;
+ }
 }
