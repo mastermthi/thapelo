@@ -1,112 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
-body{
- font-family: 'Nunito',sans-serif;
+
+body {
+ font-family: 'Nunito', sans-serif;
  background: url(../images/backie.jpg);
-
-
-}
-.column {
- float: left;
- width: 33.33%;
- padding: 5px;
 }
 
-.row::after {
- content: "";
- clear: both;
- display: table;
-}
-.content{
+.content {
  grid-area: content;
  background: url(../images/backie.jpg);
 
 }
-.logos{
+
+.logos {
  margin-top: 80px;
  display: inline-block;
 }
 
 
 
-.content img{
+.content img {
  width: 100px;
- padding-right: 25px;     
+ padding-right: 25px;
 }
 
-.sidebar{
+.sidebar {
  grid-area: sidebar;
  background: linear-gradient(to right,
-  rgba(56,58,98,1),
-  rgba(165,103,168,1),
-  rgba(130,125,200,1)
- );
+   rgba(56, 58, 98, 1),
+   rgba(165, 103, 168, 1),
+   rgba(130, 125, 200, 1));
  justify-content: center;
 }
 
-.container{
+.container {
  font-size: 1.5em;
  display: grid;
- grid-template-areas: 
-  "sidebar" "content";
+ grid-template-areas:
+  "sidebar""content";
  grid-template-columns: 1fr;
  grid-template-rows: 130px 800px;
 }
-.content,.sidebar{
+
+.content,
+.sidebar {
  padding: 1em;
 }
-nav ul{
+
+nav ul {
  margin: 0;
  padding: 0;
  display: flex;
  justify-content: space-between;
  text-align: center;
 }
-nav li{
+
+nav li {
  list-style: none;
  padding: 1em 0;
 }
-nav li a{
+
+nav li a {
  color: white;
  font-weight: 700;
  opacity: 0.6;
  transition: 0.3s;
 }
-nav li a:hover{
+
+nav li a:hover {
  opacity: 1;
 }
-.column {
- float: left;
- width: 33.33%;
- padding: 5px;
+
+.kilo {
+ max-width: 960;
+ margin: 0 auto;
+ text-align: center;
 }
 
-.row::after {
- content: "";
- clear: both;
- display: table;
-}
-.kilo{
- max-width: 960;
- margin: 0 auto;
- text-align: center;
-}
-.kilo img{
+.kilo img {
  width: 150px;
 }
-.hero{
+
+.hero {
  max-width: 960;
  margin: 0 auto;
  text-align: center;
 }
-.hero img{
+
+.hero img {
  width: 200px;
 }
 
-.hero h1{
+.hero h1 {
  font-size: 3.5em;
  font-weight: 300;
  color: #373d46;
 }
+
 /*
 .hero h3{
  font-size: 1.2em;
@@ -114,12 +103,12 @@ nav li a:hover{
      font-weight: 150;
 }
 */
-.hero h2{
+.hero h2 {
  color: #373d46;
-     font-weight: 150;
+ font-weight: 150;
 }
 
-.hero p{
+.hero p {
  font-weight: 250;
  font-size: 20px;
  line-height: 1.6;
@@ -128,99 +117,102 @@ nav li a:hover{
 }
 
 
-table {
- border-spacing: 40px;
- width: auto;
-
-}
-table img{
- max-width: 100%;
- max-height: 100vh;
- width: auto;
- margin: auto;    
-}
-
-
-.icons ul img{
+.icons ul img {
  width: 40px;
 }
-li{
+
+li {
  list-style: none;
  text-decoration: none;
  font-size: 100%;
 }
-.normaltext{
+
+.normaltext {
  font-weight: normal;
  font-size: 60%;
  font-family: sans-serif;
 }
-.boldtext{
+
+.boldtext {
  font-weight: 300;
  font-size: 85%;
  font-family: sans-serif;
 }
-footer ul li a{
+
+footer ul li a {
  text-decoration: none;
 
 }
-svg{width: 40%}
 
-@media(min-width: 1040px){
- .container{
-  grid-template-areas: 
+svg {
+ width: 40%
+}
+
+@media(min-width: 1040px) {
+ .container {
+  grid-template-areas:
    "sidebar content";
   grid-template-rows: 1fr auto;
  }
- body{
+
+ body {
   overflow: auto;
  }
- nav ul{
+
+ nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  
+ }
+
+ .content ul {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
  }
- .content ul{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
- }
- .sidebar{
+
+ .sidebar {
   grid-area: sidebar;
-  background: linear-gradient(
-   rgba(56,58,98,1),
-   rgba(165,103,168,1),
-   rgba(130,125,200,1)
-  );
+  background: linear-gradient(rgba(56, 58, 98, 1),
+    rgba(165, 103, 168, 1),
+    rgba(130, 125, 200, 1));
   justify-content: center;
- } 
- .hero{
+  height: auto;
+ }
+
+ .hero {
   text-align: left;
   margin: 2em auto;
 
  }
- .kilo{
+
+ .kilo {
   text-align: left;
   margin: 2em auto;
 
  }
- .content img{
+
+ .content img {
   width: 100px;
 
  }
 
- .table img{
+ .table img {
   width: 100px;
 
  }
 
- .hero img{
+ .hero img {
   width: 250px;
   float: right;
  }
- .kilo img{
+
+ .kilo img {
   width: 125px;
   float: right;
  }
+
  .hero p {
   width: 60%;
  }
