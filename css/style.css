@@ -16,6 +16,11 @@ body {
  display: inline-block;
 }
 
+.logo2 {
+ margin-top: 80px;
+ display: inline-block
+}
+
 
 
 .content img {
@@ -96,13 +101,6 @@ nav li a:hover {
  color: #373d46;
 }
 
-/*
-.hero h3{
- font-size: 1.2em;
- color: #373d46;
-     font-weight: 150;
-}
-*/
 .hero h2 {
  color: #373d46;
  font-weight: 150;
@@ -139,15 +137,6 @@ li {
  font-family: sans-serif;
 }
 
-footer ul li a {
- text-decoration: none;
-
-}
-
-svg {
- width: 40%
-}
-
 @media(min-width: 1040px) {
  .container {
   grid-template-areas:
@@ -163,7 +152,7 @@ svg {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  
+
  }
 
  .content ul {
@@ -178,6 +167,15 @@ svg {
     rgba(165, 103, 168, 1),
     rgba(130, 125, 200, 1));
   justify-content: center;
+  height: 100%;
+ }
+
+ .logo2 {
+  margin-top: 0px;
+ }
+
+ .logo2 img {
+  width: 150px;
   height: auto;
  }
 
