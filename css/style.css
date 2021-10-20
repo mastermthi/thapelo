@@ -103,13 +103,14 @@ nav li a:hover {
 }
 
 .hero h2 {
+ font-size: 2.5em;
  color: #373d46;
  font-weight: 150;
 }
 
 .hero p {
  font-weight: 230;
- font-size: 34px;
+ font-size: 48px;
  line-height: 1.6;
  color: darkslategray;
 
@@ -175,6 +176,11 @@ li {
   margin: 2em auto;
 
  }
+ .hero h1 {
+ font-size: 3.5em;
+ font-weight: 300;
+ color: #373d46;
+}
 
  .kilo {
   text-align: left;
