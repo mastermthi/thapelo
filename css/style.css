@@ -18,7 +18,7 @@ body {
 
 .logo2 {
  margin-top: 80px;
- display: inline-block
+ display: inline-block;
 }
 
 
@@ -92,7 +92,7 @@ nav li a:hover {
 }
 
 .hero img {
- width: 200px;
+ width: 150px;
 }
 
 .hero h1 {
@@ -107,8 +107,8 @@ nav li a:hover {
 }
 
 .hero p {
- font-weight: 250;
- font-size: 20px;
+ font-weight: 230;
+ font-size: 15px;
  line-height: 1.6;
  color: darkslategray;
 
@@ -125,17 +125,7 @@ li {
  font-size: 100%;
 }
 
-.normaltext {
- font-weight: normal;
- font-size: 60%;
- font-family: sans-serif;
-}
 
-.boldtext {
- font-weight: 300;
- font-size: 85%;
- font-family: sans-serif;
-}
 
 @media(min-width: 1040px) {
  .container {
@@ -167,7 +157,7 @@ li {
     rgba(165, 103, 168, 1),
     rgba(130, 125, 200, 1));
   justify-content: center;
-  height: 100%;
+  height: 110%;
  }
 
  .logo2 {
@@ -202,7 +192,7 @@ li {
  }
 
  .hero img {
-  width: 250px;
+  width: 195px;
   float: right;
  }
 
